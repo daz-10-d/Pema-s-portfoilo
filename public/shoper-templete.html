@@ -71,6 +71,10 @@
         border-radius: 30px;
         margin-right: 5px;
       }
+      .icon3{
+        margin-left: -35px;
+        font-size: 23px;
+      }
       @media screen and (orientation:portrait){
         nav{
           width: 100vw;
@@ -91,15 +95,14 @@
           border: lightgray;
         }
         main{
-          height: 500px;
-          display: grid;
-          grid-template-columns: 4fr 4fr 4fr;
-          grid-gap: 5px;
+          height: 1000px;
+          display: inline;
           margin-top: 5px;
         }
         .men-fashion{
           background-image: url(./images/men-fashion.jpg);
           background-size: cover;
+          height: 50vh;
           width: 100vw;
           display: flex;
           justify-content: center;
@@ -216,6 +219,10 @@
         }
         .icon2{
           margin-right: 4in;
+        }
+        .nav3{
+          display: grid;
+          grid-template-columns: 3fr 3fr 3fr 3fr;
         }
         }
     </style>
@@ -341,8 +348,30 @@
               <button>Shop Men <span class="bi bi-arrow-right"></span></button>
             </div>
           </div>
-        </div>
+          </div>
       </main>
+      <div class="container mt-4 nav3" style="border-bottom: 1px solid black;">
+        <div class="list-unstyled">
+          <span class="bi bi-truck text-danger icon3 mt-4"></span>
+            <li>FREE SHIPPING</li>
+            <li>Free shipping all order over $100</li>
+        </div>
+        <div class="list-unstyled">
+          <span class="bi bi-arrow-left-right text-danger icon3"></span>
+            <li>FREE Returns</li>
+            <li>Return money witin 30 days</li>
+        </div>
+        <div class="list-unstyled">
+          <span class="bi bi-lock text-danger icon3"></span>
+            <li>SECURE SHOPPING</li>
+            <li>You're in safe hands</li>
+        </div>
+        <div class="list-unstyled">
+          <span class="bi bi-tags text-danger icon3"></span>
+            <li>OVER 10,000 STYLES</li>
+            <li>We have everything you need</li>
+        </div>
+        </div>
     </section>
       <footer>
         <div>
