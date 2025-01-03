@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom left , white 8%, rgba(245, 245, 245, 0.47));
+    min-height: 100vh;
+}
+section{
+    min-height: 100vh;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 312px;
+    z-index: 999;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+}
+.sidebar div {
+    width: 100%;
+}
+.sidebar a {
+    width: 100%;
+}
+.menu-button{
+    display: none;
+}
+.btn{
+    margin-top: -20px;
+    margin-left: 20px;
+    background-color: white;
+    font-weight: 500;
+    width: 87%;
+    height: 38.5px;
+}
+.nav-ib{
+    width: 94%;
+    height: 43px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.nav-ib span{
+    font-size: 20px;
+}
+.nav-ib:checked{
+    background-color: rgb(18, 200, 224);
+}
+.nav-ib:hover{
+    background-color: lightgrey;
+}
+.nav-ib a{
+    margin-left: 20px;
+}
+.rbox{
+    margin-top: 2.7in;
+    height: 130px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin-left: 22px;
+}
+.rbox h4{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.sidebar{
+    margin-top: 0px;
+}
+.main-card{
+    margin-left: -18px;
+    margin-top: 10px;   
+}
+.xmark{
+    margin-left: 2.85in;
+    font-size: 30px;
+    margin-top: -25px;
+}
+@media (max-width:1000px) {
+    body{
+        background-image: linear-gradient(to bottom left , white 8%, whitesmoke);
+    }
+    .hideOnMobile{
+        display: none;
+    }
+    .fa-bars{
+        margin-top: 9px;
+    }
+    .menu-button{
+        margin-left: 17px;
+        display: block;
+        background-color: white;
+        width: 38px;
+        height: 40px;
+        border-radius: 7px;
+        margin-top: -8px;
+        box-shadow: 3px 3px 5px rgba(0.9, 0.9, 0.9, 0.4);
+    }
+    .sidebar{
+        margin-top: 0px;
+        height: 100vh;
+    }
+    nav{
+        background-color: unset;
+        box-shadow: none;
+    }
+    .navbell{
+        display: flex;
+        height: 45px;
+        justify-content: space-between; 
+        margin-top: -27px;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
+    .bellicon{
+        font-size: 20px;
+        margin-top: 11px;
+        margin-right: 10px;
+    }
+    .mid-bar{
+        display: none;
+    }
+    .main-card{
+        display: none;
+    }
+    nav{
+        margin-top: 20px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+    ul span{
+        margin: 4px 0px -10px 10px;
+        font-size: 20.5px;
+    }
+    nav li{
+        height: 50px;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    nav a{
+        height: 100%;
+        padding: 0 3px;
+        text-decoration: none;
+        align-items: center;
+        color: black;
+    }
+    ul div{
+        width: 100%;
+        height: 60px;
+        margin-top: 20px;
+    }
+    nav ul{
+        width: 10%;
+        list-style: none;
+        display: inline;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #search-bar1 input{
+        border-radius: 10px;
+        margin-left: 1in;
+    }
+}
+@media (min-width:900px) {
+    section{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 8.5fr;
+    }
+    .main-bar{
+        margin-top: -7px;
+        background-color: unset;
+        border-right: 1px solid lightgray;
+        width: 64px;
+        height: 97.5vh;
+    }
+    .main-bar li{
+       margin-left: 3px;
+    }
+    .hideOnMobile{
+        margin-top: 10px;
+    }
+    .hideOnMobile span:hover{
+        background-color: lightgrey;
+    }
+    .hideOnMobile a{
+        text-decoration: none;
+        align-items: center;
+        color: black;
+    }
+    .main-bar a{
+        font-size: 13px;
+    }
+    .mid-bar{
+        width: 17.5vw;
+        overflow-y: scroll;
+        margin-left: -10px;
+    }
+    .main-bar span{
+        margin-left: 10px;
+        font-size: 19px;
+    }
+    .main-bar a{
+        font-size: 14px;
+    }
+    .num-list{
+        margin-top: 20px;
+    }
+    .word-list{
+        margin-left: 18px;
+    }
+    .num-base{
+        background-color: lightgrey;
+    }
+    .can{
+        background: linear-gradient(0deg,#00dbde,#fc00ff);
+        font-family:var(#00dbde);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .alert{
+
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 14.8vw;
+    }
+    .button{
+        border-radius: 7px;
+        text-align: center;
+        margin-left: 12px;
+        width: 14.8vw;
+    }
+    .rd{
+        margin-left: 13px;
+        margin-top: 30px;
+    }
+}
+
+
+
