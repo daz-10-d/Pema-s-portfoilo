@@ -84,6 +84,14 @@ section{
     font-size: 30px;
     margin-top: -25px;
 }
+.banner{
+    background: linear-gradient(to right bottom,rgb(0, 225, 236) 20%,rgb(95, 4, 241),rgb(98, 0, 255) );
+    width: 74vw;
+    height: 19vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
 @media (max-width:1000px) {
     body{
         background-image: linear-gradient(to bottom left , white 8%, whitesmoke);
@@ -167,8 +175,12 @@ section{
         border-radius: 10px;
         margin-left: 1in;
     }
+    main{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+    }
 }
-@media (min-width:900px) {
+@media (min-width:1000px){
     section{
         display: grid;
         grid-template-columns: 0.5fr 2fr 8.5fr;
@@ -211,12 +223,23 @@ section{
     }
     .num-list{
         margin-top: 20px;
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 11fr;
     }
     .word-list{
-        margin-left: 18px;
+        margin-left: 10px;
+    }
+    .num{
+        margin-left: -15.5px;
+        margin-top: 4px;
+        font-size: 14px;
     }
     .num-base{
+        margin-top: 4px;
         background-color: lightgrey;
+        width: 22px;
+        height: 22px;
+        border-radius: 22px;
     }
     .can{
         background: linear-gradient(0deg,#00dbde,#fc00ff);
@@ -225,7 +248,6 @@ section{
         -webkit-text-fill-color: transparent;
     }
     .alert{
-
         margin-top: 10px;
         margin-left: 12px;
         width: 14.8vw;
@@ -239,6 +261,114 @@ section{
     .rd{
         margin-left: 13px;
         margin-top: 30px;
+    }
+    .search-container{
+        margin-top: 12px;
+        position: relative;
+    }
+    .search-container input{
+        margin-left: 3.7in;
+        width: 40lvw;
+        font-size: 17px;
+        padding:5px 15px 5px 45px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .search-container i{
+        position: absolute;
+        top: 40%;
+        margin-left: 3.85in;
+        transform: translateY(-50%);
+    }
+    .card-nav{
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+    }
+    .na-icons{
+        display: flex;
+        margin-left: 0.8in;
+    }
+    .na-icon{
+        font-size: 19px;
+        margin-left: 25px;
+    }
+    .word-drop{
+        color: white;
+        margin-left: 2.8in;
+        font-size: 70px;
+        margin-top: 3px;
+    }
+    .arrow-1{
+        color: rgb(44, 235, 44);
+        font-size: 20px;
+        margin-left: 3.4in;
+    }
+    .canva-1{
+        margin-top: -8px;
+        text-align: center;
+        border: 1.5px solid white;
+        border-radius: 5px;
+        height: 25px;
+        width: 50px;
+        background-color: rgb(44, 235, 44);
+        margin-left: 2.95in;
+    }
+    .features{
+        margin-top: -10px;
+        color: white;
+        font-size: 25px;
+        margin-left: 4.2in;
+    }
+    .days{
+        font-weight: bold;
+    }
+    .icon-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    .icon-base{
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+        background-color: rgba(220, 220, 220, 0.975);
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .icon-text{
+        display: flex;
+        font-size: 14px;
+        margin-top: 13px;
+    }
+    .ic-r0{
+        margin-left: 5px;
+    }
+    .ic-r1{
+        margin-left: 8px;
+    }
+    .ic-r2{
+        margin-left: 5px;
+    }
+    .ic-r3{
+        margin-left: 6px;
+    }
+    .ic-r4{
+        margin-left: 8px;
+    }
+    .ic-l1{
+        margin-top: 12px;
+        margin-left: -12px;
+    }
+    .ic-l2{
+        margin-top: 14px;
+        margin-left: -10px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
     }
 }
 
