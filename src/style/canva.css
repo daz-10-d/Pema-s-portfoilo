@@ -92,7 +92,7 @@ section{
     margin-top: 10px;
     margin-left: 30px;
 }
-@media (max-width:1000px) {
+@media (max-width:700px) {
     body{
         background-image: linear-gradient(to bottom left , white 8%, whitesmoke);
     }
@@ -180,7 +180,7 @@ section{
         grid-template-columns: 3fr 3fr 3fr 3fr;
     }
 }
-@media (min-width:1000px){
+@media (min-width:700px){
     section{
         display: grid;
         grid-template-columns: 0.5fr 2fr 8.5fr;
