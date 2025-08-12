@@ -173,8 +173,8 @@ ul li a:hover {
 }
 
 .image img {
-    width: min(25rem, 90%);
-    border-radius: 100%;
+    width: min(20rem, 90%);
+    border-radius: 50%;
 }
 
 @media (width <750px) {
