@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pema's Work</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            font-family: "Popppins", sans-serif;
+            background-color: rgb(232, 230, 230);
+            text-align: center;
+            padding: 2rem 1.5rem;
+        }
+
+        .work-section {
+            padding: 2rem 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .heading {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .card {
+            background-color: white;
+            padding: 2rem 1.5rem;
+            box-shadow: 1px 1px 15px 1px whitesmoke;
+            max-width: 97%;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        a:hover .card {
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+            transition-duration: 0.5s;
+        }
+
+        span,
+        h3,
+        p {
+            margin-top: 10px;
+            color: #6b7280;
+        }
+    </style>
+
+</head>
+
+<body>
+    <span class="heading">My Works</span>
+    <section class="work-section">
+        <a href="https://github.com/daz-10-d/College-Article">
+            <div class="card">
+                <img src="images/College.png" alt="">
+                <h3>College Magazine</h3>
+                <p>responsive for Every device-width.</p>
+            </div>
+        </a>
+        <a href="./shoper-templete.html">
+            <div class="card">
+                <img src="images/shopper.png" alt="">
+                <h3>Shopper Templete</h3>
+                <p>Not responsive (only for pc screen).</p>
+            </div>
+        </a>
+        <a href="./landing.html">
+            <div class="card">
+                <img src="images/youtube.png" alt="">
+                <h3>Youtube Landing Page</h3>
+                <p>Not responsive (only for pc screen).</p>
+            </div>
+        </a>
+        <a href="./Canva.html">
+            <div class="card">
+                <img src="images/Canva.png" alt="">
+                <h3>Canva</h3>
+                <p>Not responsive (only for pc screen).</p>
+            </div>
+        </a>
+    </section>
+</body>
+
+</html>
